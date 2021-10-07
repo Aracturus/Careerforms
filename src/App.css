@@ -189,7 +189,10 @@ color: white;
 }
 ::placeholder{
   color:red;
-  background: darkgray;
+  /* background: darkgray; */
 
+}
+[placeholder]{
+  color:#ff0000;
 }
 
