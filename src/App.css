@@ -1,38 +1,195 @@
-.App {
+body{
+  font-family:lucida;
+  background-color: black;
+  color: #dfdbe0;
+}
+img{
+  border-radius: 10%;
+}
+
+/* *{
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+} */
+
+h1{
+  font-size: 3.2rem;
+  color:#ff0000;
+  text-align: center;
+  padding: 3px;
+  font-weight: bold;
+
+}
+.header2-title{
+  padding-top: 9px;
+  height: 2.6rem;
+  text-align: center;
+  color:white;
+  font-weight: bold;
+  background-color: #ff0000;
+
+}
+p{
+  margin: 5px;
+  font-size: 1.2rem;
+  /* text-align: inherit; */
+  text-align: initial;
+  padding: 2px;
+
+}
+h2{
+  color: white;
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+h3{
+  text-align: center;
+
+
+}
+/* .imgMargin{
+  text-align: center;
+} */
+h4{
+  color: White;
+  text-align: center;
+  /* padding: 3px; */
+  font-weight: bold;
+}
+
+
+.column-width{
+  text-align: center;
+  width: 30vw;
+
+}
+
+
+@media screen and (max-width:600px ){
+ 
+
+  h1{
+  font-size: 2rem;    
+
+  }
+  h2{
+    font-size: 2.2rem;
+  }
+  
+  .equity1 ,.equity2 ,.equity3{
+    width: 90vw;
+    margin:0;
+    /* padding: 2rem; */
+  }
+  
+  .bythenumber-col{
+    max-width: 95vw;
+
+  }
+  .image-size{
+    max-width: 150px;
+   text-align: center;
+
+
+  }
+  .Officelocation{
+
+float: left;
+transform: translateX(-8rem);
+  }
+ 
+}
+/* Media quries end Here */
+.title{
+  color: black;
+  font-size: 1.2rem;
+}
+
+.Officelocation{
+  margin:0 15rem ;
+}
+.Centerview{
+  margin:0 8rem ;
+}
+
+.span-link{
+  color:blue;
+}
+
+.equity1{
+  background-color: #ff0000;
+  /* width: 40%; */
+  margin: 2rem;
+  padding: 2rem;
+  color: white;
   text-align: center;
 }
+.equity2{
+  /* width: 40%; */
+  margin: 2rem;
+  padding: 2rem;
+  /* color: aliceblue; */
+  text-align: center;
+}
+.equity3{
+  background-color: #323033;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  /* width: 40%; */
+  margin: 2rem;
+  padding: 2rem;
+  color:white;
+  text-align: center;
+}
+.bythenumber-bg{
+  background-color: #323033;
+  margin-top: 2%; 
+  border-radius: 2%;
+ 
+
+
+}
+.bythenumber-col>p{
+  margin: auto;
+  text-align: center;
+}
+.perspective-res{
+  margin-top: 2%; 
+  /* border-radius: 2%; */
+  /* transform: translateX(3rem); */
+
+}
+.ln-bg{
+  background-color: gray;
+  width: fit-content;
+}
+.container-left{
+  float: left;
+  width: 45%;
+background: #000;
+color: white;
+}
+.table{
+  padding-left: 2rem;
+ background: #000;
+ color: aliceblue;
+
+}
+.container_form{
+  width:60%;
+}
+.formview{
+ padding: 2rem;
+ width: 60vw;
+ color:rgb(10, 9, 9);
+ margin-top: 3rem;
+}
+::placeholder{
+  color:red;
+  background: darkgray;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
